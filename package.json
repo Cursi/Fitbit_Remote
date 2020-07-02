@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "064c3530-f4ef-42b0-b1b4-d3abddcfc216",
+    "appType": "app",
+    "appDisplayName": "Fitbit_Remote",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [
+      "access_activity",
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "mira",
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Fitbit_Remote"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
